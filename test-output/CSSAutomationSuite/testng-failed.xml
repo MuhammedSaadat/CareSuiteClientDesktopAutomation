@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [CSSAutomationSuite]" parallel="classes">
+  <parameter name="seleniumGridNodeUrl" value="local"/>
+  <parameter name="platform" value="Windows"/>
+  <test name="RegressionSuite(failed)" parallel="classes">
+    <classes>
+      <class name="automation.careSuiteClient.Package11.MedPassModuleTestCases">
+        <methods>
+          <include name="closeReport"/>
+          <include name="createReportAndLaunchApplication"/>
+          <include name="verifyMedPassFunctionality"/>
+        </methods>
+      </class> <!-- automation.careSuiteClient.Package11.MedPassModuleTestCases -->
+    </classes>
+  </test> <!-- RegressionSuite(failed) -->
+</suite> <!-- Failed suite [CSSAutomationSuite] -->

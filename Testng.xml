@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="CSSAutomationSuite" verbose="2" parallel="classes"	thread-count="1"> -->
+<suite name="CSSAutomationSuite" verbose="2">
+	
+	
+	<parameter name="platform" value="Windows" />
+	<!-- <parameter name="seleniumGridNodeUrl" value="http://172.24.11.51:4444/wd/hub"/> -->
+	<parameter name="seleniumGridNodeUrl" value="local" />
+
+	<test name="RegressionSuite">
+		<classes>
+			<class name="automation.careSuiteClient.Package11.MedPassModuleTestCases">
+				<methods>
+				<!--   <include name="verifyMedPassFunctionality"/> -->
+				</methods>
+			</class>
+			
+			<class name="automation.careSuiteClient.Package11.OrdersModuleTestCases">
+				<methods>
+				<!--   <include name="verifyMedPassFunctionality"/> -->
+				</methods>
+			</class>
+			
+		</classes>
+	</test>
+</suite>

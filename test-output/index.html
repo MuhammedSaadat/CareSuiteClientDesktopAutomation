@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-CSSAutomationSuite">
+              <span class="suite-name border-passed">CSSAutomationSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-CSSAutomationSuite">
+                    <span>C:\ClientAutomation\careSuiteClient\Testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-CSSAutomationSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-CSSAutomationSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-CSSAutomationSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-CSSAutomationSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-CSSAutomationSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-CSSAutomationSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CSSAutomationSuite" class="hide-methods passed suite-CSSAutomationSuite"> (hide)</a> <!-- hide-methods passed suite-CSSAutomationSuite -->
+                      <a href="#" panel-name="suite-CSSAutomationSuite" class="show-methods passed suite-CSSAutomationSuite"> (show)</a> <!-- show-methods passed suite-CSSAutomationSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-CSSAutomationSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CSSAutomationSuite" title="automation.careSuiteClient.Package11.MedPassModuleTestCases" hash-for-method="verifyAvailabilityOfAmountGivenInLast24HoursForPRNMedAtMedTile">verifyAvailabilityOfAmountGivenInLast24HoursForPRNMedAtMedTile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CSSAutomationSuite" title="automation.careSuiteClient.Package11.MedPassModuleTestCases" hash-for-method="verifyDisplayOfExceptionsInConfirmationScreenOnClickOfSkipAllButton">verifyDisplayOfExceptionsInConfirmationScreenOnClickOfSkipAllButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CSSAutomationSuite" title="automation.careSuiteClient.Package11.MedPassModuleTestCases" hash-for-method="verifyDisplayOfPRNAndRoutineSplitOrdersInMedpassScreen">verifyDisplayOfPRNAndRoutineSplitOrdersInMedpassScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CSSAutomationSuite" title="automation.careSuiteClient.Package11.MedPassModuleTestCases" hash-for-method="verifyDisplayOfResidentInMedPassScreenWhenUserScansRelatedBarcodeFromHomeScreenForPMMeds">verifyDisplayOfResidentInMedPassScreenWhenUserScansRelatedBarcodeFromHomeScreenForPMMeds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CSSAutomationSuite" title="automation.careSuiteClient.Package11.MedPassModuleTestCases" hash-for-method="verifyDisplayOfWarningMessageBoxWhenAmountAlreadyExceededInLast24Hours">verifyDisplayOfWarningMessageBoxWhenAmountAlreadyExceededInLast24Hours</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CSSAutomationSuite" title="automation.careSuiteClient.Package11.MedPassModuleTestCases" hash-for-method="verifyDisplayOfWitnessLoginPromptForControlledMedWhilePassingMed">verifyDisplayOfWitnessLoginPromptForControlledMedWhilePassingMed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CSSAutomationSuite" title="automation.careSuiteClient.Package11.MedPassModuleTestCases" hash-for-method="verifyForDisplayOfMedPassBannerAppointmentForResidentInMedPassScreenForSameMedPassRangeOfAppointment">verifyForDisplayOfMedPassBannerAppointmentForResidentInMedPassScreenForSameMedPassRangeOfAppointment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CSSAutomationSuite" title="automation.careSuiteClient.Package11.MedPassModuleTestCases" hash-for-method="verifyFunctionalityOfPrintButtonToPrintAdverseAffectsInDrugInformationPrintingPopUpWindowUnderMedTile">verifyFunctionalityOfPrintButtonToPrintAdverseAffectsInDrugInformationPrintingPopUpWindowUnderMedTile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CSSAutomationSuite" title="automation.careSuiteClient.Package11.MedPassModuleTestCases" hash-for-method="verifyFunctionalityOfRecordingRoutineMedWithAnExceptionAndVitalValuesAtMedPassScreen">verifyFunctionalityOfRecordingRoutineMedWithAnExceptionAndVitalValuesAtMedPassScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CSSAutomationSuite" title="automation.careSuiteClient.Package11.MedPassModuleTestCases" hash-for-method="verifyMedPassFunctionality">verifyMedPassFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CSSAutomationSuite" title="automation.careSuiteClient.Package11.MedPassModuleTestCases" hash-for-method="verifyMedpassProcessOfDiscontinuedMeds">verifyMedpassProcessOfDiscontinuedMeds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CSSAutomationSuite" title="automation.careSuiteClient.Package11.MedPassModuleTestCases" hash-for-method="verifyRecordExceptionsFunctionalityDuringMedPass">verifyRecordExceptionsFunctionalityDuringMedPass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CSSAutomationSuite" title="automation.careSuiteClient.Package11.MedPassModuleTestCases" hash-for-method="verifyReorderButtonFunctionalityInMedTile">verifyReorderButtonFunctionalityInMedTile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CSSAutomationSuite" title="automation.careSuiteClient.Package11.MedPassModuleTestCases" hash-for-method="verifySaveSelectionsButtonFunctionalityInResidentMedPassScreen">verifySaveSelectionsButtonFunctionalityInResidentMedPassScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CSSAutomationSuite" title="automation.careSuiteClient.Package11.MedPassModuleTestCases" hash-for-method="verifyTrackingOfMedsTakenFromAnEmergencyKitInMedPassScreen">verifyTrackingOfMedsTakenFromAnEmergencyKitInMedPassScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-CSSAutomationSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CSSAutomationSuite" class="panel CSSAutomationSuite">
+          <div class="suite-CSSAutomationSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automation.careSuiteClient.Package11.MedPassModuleTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAvailabilityOfAmountGivenInLast24HoursForPRNMedAtMedTile">
+                  </a> <!-- verifyAvailabilityOfAmountGivenInLast24HoursForPRNMedAtMedTile -->
+                  <span class="method-name">verifyAvailabilityOfAmountGivenInLast24HoursForPRNMedAtMedTile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDisplayOfExceptionsInConfirmationScreenOnClickOfSkipAllButton">
+                  </a> <!-- verifyDisplayOfExceptionsInConfirmationScreenOnClickOfSkipAllButton -->
+                  <span class="method-name">verifyDisplayOfExceptionsInConfirmationScreenOnClickOfSkipAllButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDisplayOfPRNAndRoutineSplitOrdersInMedpassScreen">
+                  </a> <!-- verifyDisplayOfPRNAndRoutineSplitOrdersInMedpassScreen -->
+                  <span class="method-name">verifyDisplayOfPRNAndRoutineSplitOrdersInMedpassScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDisplayOfResidentInMedPassScreenWhenUserScansRelatedBarcodeFromHomeScreenForPMMeds">
+                  </a> <!-- verifyDisplayOfResidentInMedPassScreenWhenUserScansRelatedBarcodeFromHomeScreenForPMMeds -->
+                  <span class="method-name">verifyDisplayOfResidentInMedPassScreenWhenUserScansRelatedBarcodeFromHomeScreenForPMMeds</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDisplayOfWarningMessageBoxWhenAmountAlreadyExceededInLast24Hours">
+                  </a> <!-- verifyDisplayOfWarningMessageBoxWhenAmountAlreadyExceededInLast24Hours -->
+                  <span class="method-name">verifyDisplayOfWarningMessageBoxWhenAmountAlreadyExceededInLast24Hours</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDisplayOfWitnessLoginPromptForControlledMedWhilePassingMed">
+                  </a> <!-- verifyDisplayOfWitnessLoginPromptForControlledMedWhilePassingMed -->
+                  <span class="method-name">verifyDisplayOfWitnessLoginPromptForControlledMedWhilePassingMed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyForDisplayOfMedPassBannerAppointmentForResidentInMedPassScreenForSameMedPassRangeOfAppointment">
+                  </a> <!-- verifyForDisplayOfMedPassBannerAppointmentForResidentInMedPassScreenForSameMedPassRangeOfAppointment -->
+                  <span class="method-name">verifyForDisplayOfMedPassBannerAppointmentForResidentInMedPassScreenForSameMedPassRangeOfAppointment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFunctionalityOfPrintButtonToPrintAdverseAffectsInDrugInformationPrintingPopUpWindowUnderMedTile">
+                  </a> <!-- verifyFunctionalityOfPrintButtonToPrintAdverseAffectsInDrugInformationPrintingPopUpWindowUnderMedTile -->
+                  <span class="method-name">verifyFunctionalityOfPrintButtonToPrintAdverseAffectsInDrugInformationPrintingPopUpWindowUnderMedTile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFunctionalityOfRecordingRoutineMedWithAnExceptionAndVitalValuesAtMedPassScreen">
+                  </a> <!-- verifyFunctionalityOfRecordingRoutineMedWithAnExceptionAndVitalValuesAtMedPassScreen -->
+                  <span class="method-name">verifyFunctionalityOfRecordingRoutineMedWithAnExceptionAndVitalValuesAtMedPassScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMedPassFunctionality">
+                  </a> <!-- verifyMedPassFunctionality -->
+                  <span class="method-name">verifyMedPassFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMedpassProcessOfDiscontinuedMeds">
+                  </a> <!-- verifyMedpassProcessOfDiscontinuedMeds -->
+                  <span class="method-name">verifyMedpassProcessOfDiscontinuedMeds</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRecordExceptionsFunctionalityDuringMedPass">
+                  </a> <!-- verifyRecordExceptionsFunctionalityDuringMedPass -->
+                  <span class="method-name">verifyRecordExceptionsFunctionalityDuringMedPass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyReorderButtonFunctionalityInMedTile">
+                  </a> <!-- verifyReorderButtonFunctionalityInMedTile -->
+                  <span class="method-name">verifyReorderButtonFunctionalityInMedTile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySaveSelectionsButtonFunctionalityInResidentMedPassScreen">
+                  </a> <!-- verifySaveSelectionsButtonFunctionalityInResidentMedPassScreen -->
+                  <span class="method-name">verifySaveSelectionsButtonFunctionalityInResidentMedPassScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTrackingOfMedsTakenFromAnEmergencyKitInMedPassScreen">
+                  </a> <!-- verifyTrackingOfMedsTakenFromAnEmergencyKitInMedPassScreen -->
+                  <span class="method-name">verifyTrackingOfMedsTakenFromAnEmergencyKitInMedPassScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CSSAutomationSuite-class-passed -->
+        </div> <!-- panel CSSAutomationSuite -->
+        <div panel-name="test-xml-CSSAutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\ClientAutomation\careSuiteClient\Testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;2&quot; name=&quot;CSSAutomationSuite&quot;&gt;
+  &lt;parameter name=&quot;seleniumGridNodeUrl&quot; value=&quot;local&quot;/&gt;
+  &lt;parameter name=&quot;platform&quot; value=&quot;Windows&quot;/&gt;
+  &lt;test name=&quot;RegressionSuite&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;automation.careSuiteClient.Package11.MedPassModuleTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RegressionSuite --&gt;
+&lt;/suite&gt; &lt;!-- CSSAutomationSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CSSAutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CSSAutomationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">RegressionSuite (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CSSAutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CSSAutomationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CSSAutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CSSAutomationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CSSAutomationSuite');
+function tableData_CSSAutomationSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyMedPassFunctionality')
+data.setCell(0, 2, 'automation.careSuiteClient.Package11.MedPassModuleTestCases')
+data.setCell(0, 3, 44475);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyDisplayOfPRNAndRoutineSplitOrdersInMedpassScreen')
+data.setCell(1, 2, 'automation.careSuiteClient.Package11.MedPassModuleTestCases')
+data.setCell(1, 3, 4);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyMedpassProcessOfDiscontinuedMeds')
+data.setCell(2, 2, 'automation.careSuiteClient.Package11.MedPassModuleTestCases')
+data.setCell(2, 3, 3);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyRecordExceptionsFunctionalityDuringMedPass')
+data.setCell(3, 2, 'automation.careSuiteClient.Package11.MedPassModuleTestCases')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifySaveSelectionsButtonFunctionalityInResidentMedPassScreen')
+data.setCell(4, 2, 'automation.careSuiteClient.Package11.MedPassModuleTestCases')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyDisplayOfExceptionsInConfirmationScreenOnClickOfSkipAllButton')
+data.setCell(5, 2, 'automation.careSuiteClient.Package11.MedPassModuleTestCases')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyFunctionalityOfPrintButtonToPrintAdverseAffectsInDrugInformationPrintingPopUpWindowUnderMedTile')
+data.setCell(6, 2, 'automation.careSuiteClient.Package11.MedPassModuleTestCases')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyDisplayOfWarningMessageBoxWhenAmountAlreadyExceededInLast24Hours')
+data.setCell(7, 2, 'automation.careSuiteClient.Package11.MedPassModuleTestCases')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyReorderButtonFunctionalityInMedTile')
+data.setCell(8, 2, 'automation.careSuiteClient.Package11.MedPassModuleTestCases')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyDisplayOfWitnessLoginPromptForControlledMedWhilePassingMed')
+data.setCell(9, 2, 'automation.careSuiteClient.Package11.MedPassModuleTestCases')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyDisplayOfResidentInMedPassScreenWhenUserScansRelatedBarcodeFromHomeScreenForPMMeds')
+data.setCell(10, 2, 'automation.careSuiteClient.Package11.MedPassModuleTestCases')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyTrackingOfMedsTakenFromAnEmergencyKitInMedPassScreen')
+data.setCell(11, 2, 'automation.careSuiteClient.Package11.MedPassModuleTestCases')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyAvailabilityOfAmountGivenInLast24HoursForPRNMedAtMedTile')
+data.setCell(12, 2, 'automation.careSuiteClient.Package11.MedPassModuleTestCases')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyFunctionalityOfRecordingRoutineMedWithAnExceptionAndVitalValuesAtMedPassScreen')
+data.setCell(13, 2, 'automation.careSuiteClient.Package11.MedPassModuleTestCases')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyForDisplayOfMedPassBannerAppointmentForResidentInMedPassScreenForSameMedPassRangeOfAppointment')
+data.setCell(14, 2, 'automation.careSuiteClient.Package11.MedPassModuleTestCases')
+data.setCell(14, 3, 0);
+window.suiteTableData['CSSAutomationSuite']= { tableData: data, tableDiv: 'times-div-CSSAutomationSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
+              <div id="times-div-CSSAutomationSuite">
+              </div> <!-- times-div-CSSAutomationSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CSSAutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CSSAutomationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CSSAutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CSSAutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">automation.careSuiteClient.Package11.MedPassModuleTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">startWinAppDriver</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">createReportAndLaunchApplication(Windows, local)</span>
+                <span class="method-start">228 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyMedPassFunctionality</span>
+                <span class="method-start">914 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRecordExceptionsFunctionalityDuringMedPass</span>
+                <span class="method-start">45395 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTrackingOfMedsTakenFromAnEmergencyKitInMedPassScreen</span>
+                <span class="method-start">45398 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDisplayOfWitnessLoginPromptForControlledMedWhilePassingMed</span>
+                <span class="method-start">45399 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDisplayOfExceptionsInConfirmationScreenOnClickOfSkipAllButton</span>
+                <span class="method-start">45401 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAvailabilityOfAmountGivenInLast24HoursForPRNMedAtMedTile</span>
+                <span class="method-start">45403 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDisplayOfWarningMessageBoxWhenAmountAlreadyExceededInLast24Hours</span>
+                <span class="method-start">45404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMedpassProcessOfDiscontinuedMeds</span>
+                <span class="method-start">45406 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySaveSelectionsButtonFunctionalityInResidentMedPassScreen</span>
+                <span class="method-start">45410 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDisplayOfPRNAndRoutineSplitOrdersInMedpassScreen</span>
+                <span class="method-start">45413 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFunctionalityOfRecordingRoutineMedWithAnExceptionAndVitalValuesAtMedPassScreen</span>
+                <span class="method-start">45419 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyReorderButtonFunctionalityInMedTile</span>
+                <span class="method-start">45423 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFunctionalityOfPrintButtonToPrintAdverseAffectsInDrugInformationPrintingPopUpWindowUnderMedTile</span>
+                <span class="method-start">45425 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyForDisplayOfMedPassBannerAppointmentForResidentInMedPassScreenForSameMedPassRangeOfAppointment</span>
+                <span class="method-start">45427 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDisplayOfResidentInMedPassScreenWhenUserScansRelatedBarcodeFromHomeScreenForPMMeds</span>
+                <span class="method-start">45430 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeReport</span>
+                <span class="method-start">45431 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">stopWinAppDriver</span>
+                <span class="method-start">45457 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

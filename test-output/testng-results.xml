@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CSSAutomationSuite" duration-ms="45214" started-at="2020-04-30T12:20:27Z" finished-at="2020-04-30T12:21:12Z">
+    <groups>
+    </groups>
+    <test name="RegressionSuite" duration-ms="45214" started-at="2020-04-30T12:20:27Z" finished-at="2020-04-30T12:21:12Z">
+      <class name="automation.careSuiteClient.Package11.MedPassModuleTestCases">
+        <test-method status="PASS" signature="startWinAppDriver()[pri:0, instance:automation.careSuiteClient.Package11.MedPassModuleTestCases@63e2203c]" name="startWinAppDriver" is-config="true" duration-ms="221" started-at="2020-04-30T17:50:27Z" finished-at="2020-04-30T17:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWinAppDriver -->
+        <test-method status="PASS" signature="createReportAndLaunchApplication(java.lang.String, java.lang.String)[pri:0, instance:automation.careSuiteClient.Package11.MedPassModuleTestCases@63e2203c]" name="createReportAndLaunchApplication" is-config="true" duration-ms="680" started-at="2020-04-30T17:50:27Z" finished-at="2020-04-30T17:50:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReportAndLaunchApplication -->
+        <test-method status="PASS" signature="verifyMedPassFunctionality()[pri:1, instance:automation.careSuiteClient.Package11.MedPassModuleTestCases@63e2203c]" name="verifyMedPassFunctionality" duration-ms="44475" started-at="2020-04-30T17:50:28Z" finished-at="2020-04-30T17:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMedPassFunctionality -->
+        <test-method status="PASS" signature="verifyRecordExceptionsFunctionalityDuringMedPass()[pri:2, instance:automation.careSuiteClient.Package11.MedPassModuleTestCases@63e2203c]" name="verifyRecordExceptionsFunctionalityDuringMedPass" duration-ms="2" started-at="2020-04-30T17:51:12Z" finished-at="2020-04-30T17:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRecordExceptionsFunctionalityDuringMedPass -->
+        <test-method status="PASS" signature="verifyTrackingOfMedsTakenFromAnEmergencyKitInMedPassScreen()[pri:3, instance:automation.careSuiteClient.Package11.MedPassModuleTestCases@63e2203c]" name="verifyTrackingOfMedsTakenFromAnEmergencyKitInMedPassScreen" duration-ms="0" started-at="2020-04-30T17:51:12Z" finished-at="2020-04-30T17:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTrackingOfMedsTakenFromAnEmergencyKitInMedPassScreen -->
+        <test-method status="PASS" signature="verifyDisplayOfWitnessLoginPromptForControlledMedWhilePassingMed()[pri:4, instance:automation.careSuiteClient.Package11.MedPassModuleTestCases@63e2203c]" name="verifyDisplayOfWitnessLoginPromptForControlledMedWhilePassingMed" duration-ms="1" started-at="2020-04-30T17:51:12Z" finished-at="2020-04-30T17:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisplayOfWitnessLoginPromptForControlledMedWhilePassingMed -->
+        <test-method status="PASS" signature="verifyDisplayOfExceptionsInConfirmationScreenOnClickOfSkipAllButton()[pri:5, instance:automation.careSuiteClient.Package11.MedPassModuleTestCases@63e2203c]" name="verifyDisplayOfExceptionsInConfirmationScreenOnClickOfSkipAllButton" duration-ms="1" started-at="2020-04-30T17:51:12Z" finished-at="2020-04-30T17:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisplayOfExceptionsInConfirmationScreenOnClickOfSkipAllButton -->
+        <test-method status="PASS" signature="verifyAvailabilityOfAmountGivenInLast24HoursForPRNMedAtMedTile()[pri:6, instance:automation.careSuiteClient.Package11.MedPassModuleTestCases@63e2203c]" name="verifyAvailabilityOfAmountGivenInLast24HoursForPRNMedAtMedTile" duration-ms="0" started-at="2020-04-30T17:51:12Z" finished-at="2020-04-30T17:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailabilityOfAmountGivenInLast24HoursForPRNMedAtMedTile -->
+        <test-method status="PASS" signature="verifyDisplayOfWarningMessageBoxWhenAmountAlreadyExceededInLast24Hours()[pri:7, instance:automation.careSuiteClient.Package11.MedPassModuleTestCases@63e2203c]" name="verifyDisplayOfWarningMessageBoxWhenAmountAlreadyExceededInLast24Hours" duration-ms="1" started-at="2020-04-30T17:51:12Z" finished-at="2020-04-30T17:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisplayOfWarningMessageBoxWhenAmountAlreadyExceededInLast24Hours -->
+        <test-method status="PASS" signature="verifyMedpassProcessOfDiscontinuedMeds()[pri:8, instance:automation.careSuiteClient.Package11.MedPassModuleTestCases@63e2203c]" name="verifyMedpassProcessOfDiscontinuedMeds" duration-ms="3" started-at="2020-04-30T17:51:12Z" finished-at="2020-04-30T17:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMedpassProcessOfDiscontinuedMeds -->
+        <test-method status="PASS" signature="verifySaveSelectionsButtonFunctionalityInResidentMedPassScreen()[pri:9, instance:automation.careSuiteClient.Package11.MedPassModuleTestCases@63e2203c]" name="verifySaveSelectionsButtonFunctionalityInResidentMedPassScreen" duration-ms="1" started-at="2020-04-30T17:51:12Z" finished-at="2020-04-30T17:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySaveSelectionsButtonFunctionalityInResidentMedPassScreen -->
+        <test-method status="PASS" signature="verifyDisplayOfPRNAndRoutineSplitOrdersInMedpassScreen()[pri:10, instance:automation.careSuiteClient.Package11.MedPassModuleTestCases@63e2203c]" name="verifyDisplayOfPRNAndRoutineSplitOrdersInMedpassScreen" duration-ms="4" started-at="2020-04-30T17:51:12Z" finished-at="2020-04-30T17:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisplayOfPRNAndRoutineSplitOrdersInMedpassScreen -->
+        <test-method status="PASS" signature="verifyFunctionalityOfRecordingRoutineMedWithAnExceptionAndVitalValuesAtMedPassScreen()[pri:11, instance:automation.careSuiteClient.Package11.MedPassModuleTestCases@63e2203c]" name="verifyFunctionalityOfRecordingRoutineMedWithAnExceptionAndVitalValuesAtMedPassScreen" duration-ms="0" started-at="2020-04-30T17:51:12Z" finished-at="2020-04-30T17:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFunctionalityOfRecordingRoutineMedWithAnExceptionAndVitalValuesAtMedPassScreen -->
+        <test-method status="PASS" signature="verifyReorderButtonFunctionalityInMedTile()[pri:12, instance:automation.careSuiteClient.Package11.MedPassModuleTestCases@63e2203c]" name="verifyReorderButtonFunctionalityInMedTile" duration-ms="1" started-at="2020-04-30T17:51:12Z" finished-at="2020-04-30T17:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReorderButtonFunctionalityInMedTile -->
+        <test-method status="PASS" signature="verifyFunctionalityOfPrintButtonToPrintAdverseAffectsInDrugInformationPrintingPopUpWindowUnderMedTile()[pri:13, instance:automation.careSuiteClient.Package11.MedPassModuleTestCases@63e2203c]" name="verifyFunctionalityOfPrintButtonToPrintAdverseAffectsInDrugInformationPrintingPopUpWindowUnderMedTile" duration-ms="1" started-at="2020-04-30T17:51:12Z" finished-at="2020-04-30T17:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFunctionalityOfPrintButtonToPrintAdverseAffectsInDrugInformationPrintingPopUpWindowUnderMedTile -->
+        <test-method status="PASS" signature="verifyForDisplayOfMedPassBannerAppointmentForResidentInMedPassScreenForSameMedPassRangeOfAppointment()[pri:14, instance:automation.careSuiteClient.Package11.MedPassModuleTestCases@63e2203c]" name="verifyForDisplayOfMedPassBannerAppointmentForResidentInMedPassScreenForSameMedPassRangeOfAppointment" duration-ms="0" started-at="2020-04-30T17:51:12Z" finished-at="2020-04-30T17:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForDisplayOfMedPassBannerAppointmentForResidentInMedPassScreenForSameMedPassRangeOfAppointment -->
+        <test-method status="PASS" signature="verifyDisplayOfResidentInMedPassScreenWhenUserScansRelatedBarcodeFromHomeScreenForPMMeds()[pri:15, instance:automation.careSuiteClient.Package11.MedPassModuleTestCases@63e2203c]" name="verifyDisplayOfResidentInMedPassScreenWhenUserScansRelatedBarcodeFromHomeScreenForPMMeds" duration-ms="0" started-at="2020-04-30T17:51:12Z" finished-at="2020-04-30T17:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisplayOfResidentInMedPassScreenWhenUserScansRelatedBarcodeFromHomeScreenForPMMeds -->
+        <test-method status="PASS" signature="closeReport()[pri:0, instance:automation.careSuiteClient.Package11.MedPassModuleTestCases@63e2203c]" name="closeReport" is-config="true" duration-ms="4" started-at="2020-04-30T17:51:12Z" finished-at="2020-04-30T17:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+        <test-method status="PASS" signature="stopWinAppDriver()[pri:0, instance:automation.careSuiteClient.Package11.MedPassModuleTestCases@63e2203c]" name="stopWinAppDriver" is-config="true" duration-ms="385" started-at="2020-04-30T17:51:12Z" finished-at="2020-04-30T17:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopWinAppDriver -->
+      </class> <!-- automation.careSuiteClient.Package11.MedPassModuleTestCases -->
+    </test> <!-- RegressionSuite -->
+  </suite> <!-- CSSAutomationSuite -->
+</testng-results>
